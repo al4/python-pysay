@@ -10,10 +10,3 @@ class TestAsciiArt(TestCase):
             'test-string',
             py_format('test-string')
         )
-
-    def test_fails(self):
-        """ A test that always fails
-        """
-        self.assertEqual(
-            'foo', 'bar'
-        )
